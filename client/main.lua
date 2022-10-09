@@ -55,7 +55,7 @@ Citizen.CreateThread(function()
         if Vehicle.Vehicle ~= nil then
  
                 if IsVehicleSeatFree(Vehicle.Vehicle, -1) and GetVehicleEngineHealth(Vehicle.Vehicle) <= Config.DamageNeeded then
-                    ESX.Game.Utils.DrawText3D({x = Vehicle.Coords.x, y = Vehicle.Coords.y, z = Vehicle.Coords.z}, ('push'), 0.4)
+                    ESX.Game.Utils.DrawText3D({x = Vehicle.Coords.x, y = Vehicle.Coords.y, z = Vehicle.Coords.z}, TranslateCap('push'), 0.4)
                 end
      
 
